@@ -35,10 +35,10 @@ const Services = () => {
     <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold mb-6 text-stone-dark">
+          <h2 className="text-4xl font-bold mb-6 text-white">
             Nossos <span className="text-gold-elegant">Serviços</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-xl text-white max-w-3xl mx-auto">
             Soluções completas em pedras naturais para residências e comércios
           </p>
         </div>
@@ -53,8 +53,8 @@ const Services = () => {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-dark/80 to-transparent"></div>
             <div className="absolute bottom-4 left-4 text-white">
-              <h3 className="font-semibold text-lg">ATENDIMENTO NATAL E PARNAMIRIM</h3>
-              <p className="text-sm opacity-90">Atendemos toda a Grande Natal</p>
+              <h3 className="font-semibold text-lg">Fachada Elegante</h3>
+              <p className="text-sm opacity-90">Sofisticação e durabilidade em granito</p>
             </div>
           </div>
           
@@ -89,14 +89,14 @@ const Services = () => {
         <div className="grid lg:grid-cols-3 gap-8">
           <Card className="p-6 shadow-[var(--shadow-elegant)] hover:shadow-xl transition-all duration-300">
             <CardContent className="p-0">
-              <h3 className="text-2xl font-bold mb-4 text-stone-dark">
+              <h3 className="text-2xl font-bold mb-4 text-white">
                 Serviços em <span className="text-gold-elegant">Mármore</span>
               </h3>
               <ul className="space-y-3">
                 {marbleServices.map((service, index) => (
                   <li key={index} className="flex items-start gap-2">
                     <div className="w-2 h-2 bg-gold-elegant rounded-full mt-2 flex-shrink-0"></div>
-                    <span className="text-muted-foreground">{service}</span>
+                    <span className="text-white">{service}</span>
                   </li>
                 ))}
               </ul>
@@ -105,14 +105,14 @@ const Services = () => {
           
           <Card className="p-6 shadow-[var(--shadow-elegant)] hover:shadow-xl transition-all duration-300">
             <CardContent className="p-0">
-              <h3 className="text-2xl font-bold mb-4 text-stone-dark">
+              <h3 className="text-2xl font-bold mb-4 text-white">
                 Serviços em <span className="text-gold-elegant">Granito</span>
               </h3>
               <ul className="space-y-3">
                 {graniteServices.map((service, index) => (
                   <li key={index} className="flex items-start gap-2">
                     <div className="w-2 h-2 bg-gold-elegant rounded-full mt-2 flex-shrink-0"></div>
-                    <span className="text-muted-foreground">{service}</span>
+                    <span className="text-white">{service}</span>
                   </li>
                 ))}
               </ul>
@@ -121,14 +121,14 @@ const Services = () => {
           
           <Card className="p-6 shadow-[var(--shadow-elegant)] hover:shadow-xl transition-all duration-300">
             <CardContent className="p-0">
-              <h3 className="text-2xl font-bold mb-4 text-stone-dark">
+              <h3 className="text-2xl font-bold mb-4 text-white">
                 Tipos de <span className="text-gold-elegant">Pedras</span>
               </h3>
               <ul className="space-y-3">
                 {stoneTypes.map((type, index) => (
                   <li key={index} className="flex items-start gap-2">
                     <div className="w-2 h-2 bg-gold-elegant rounded-full mt-2 flex-shrink-0"></div>
-                    <span className="text-muted-foreground">{type}</span>
+                    <span className="text-white">{type}</span>
                   </li>
                 ))}
               </ul>

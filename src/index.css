@@ -37,11 +37,11 @@ All colors MUST be HSL.
     --ring: 30 15% 54%;
 
     /* Design tokens da Marmonic - Versão Sofisticada Escura */
-    --stone-light: 0 0% 69%;
-    --stone-medium: 0 0% 40%;
-    --stone-dark: 0 0% 20%;
-    --gold-elegant: 30 15% 54%;
-    --gold-light: 30 20% 75%;
+    --stone-light: 0 0% 85%;
+    --stone-medium: 0 0% 60%;
+    --stone-dark: 0 0% 15%;
+    --gold-elegant: 35 75% 65%;
+    --gold-light: 40 80% 75%;
     --marble-white: 0 0% 100%;
     --granite-dark: 0 0% 8%;
 

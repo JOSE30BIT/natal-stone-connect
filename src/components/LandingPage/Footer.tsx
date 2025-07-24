@@ -64,6 +64,15 @@ const Footer = () => {
         
         {/* Linha de separação */}
         <div className="border-t border-stone-medium mt-8 pt-8">
+          <div className="text-center mb-6">
+            <p className="text-2xl font-bold text-gold-elegant mb-2">
+              ATENDEMOS NATAL E PARNAMIRIM
+            </p>
+            <p className="text-stone-light">
+              Cobertura completa da Grande Natal com qualidade garantida
+            </p>
+          </div>
+          
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-stone-light text-sm mb-4 md:mb-0">
               © 2024 Marmonic Granitos e Mármores. Todos os direitos reservados.
