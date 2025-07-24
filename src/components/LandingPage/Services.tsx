@@ -53,8 +53,8 @@ const Services = () => {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-dark/80 to-transparent"></div>
             <div className="absolute bottom-4 left-4 text-white">
-              <h3 className="font-semibold text-lg">Fachadas Residenciais</h3>
-              <p className="text-sm opacity-90">Atendimento Natal e Parnamirim</p>
+              <h3 className="font-semibold text-lg">ATENDIMENTO NATAL E PARNAMIRIM</h3>
+              <p className="text-sm opacity-90">Atendemos toda a Grande Natal</p>
             </div>
           </div>
           

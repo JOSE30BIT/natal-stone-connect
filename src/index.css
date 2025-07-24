@@ -17,31 +17,31 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 210 15% 15%;
 
-    --primary: 210 15% 15%;
-    --primary-foreground: 0 0% 98%;
+    --primary: 0 0% 20%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 10% 92%;
-    --secondary-foreground: 210 15% 15%;
+    --secondary: 0 0% 69%;
+    --secondary-foreground: 0 0% 20%;
 
-    --muted: 210 10% 95%;
-    --muted-foreground: 210 8% 45%;
+    --muted: 0 0% 96%;
+    --muted-foreground: 0 0% 40%;
 
-    --accent: 45 85% 55%;
-    --accent-foreground: 210 15% 15%;
+    --accent: 30 15% 54%;
+    --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 210 10% 88%;
-    --input: 210 10% 92%;
-    --ring: 210 15% 15%;
+    --border: 0 0% 69%;
+    --input: 0 0% 92%;
+    --ring: 0 0% 20%;
 
-    /* Design tokens específicos para marmoraria */
-    --stone-light: 210 8% 96%;
-    --stone-medium: 210 8% 85%;
-    --stone-dark: 210 15% 25%;
-    --gold-elegant: 45 85% 55%;
-    --gold-light: 45 75% 85%;
+    /* Design tokens da Marmonic (#333333, #FFFFFF, #B0B0B0, #666666, #8B7A6A) */
+    --stone-light: 0 0% 69%;
+    --stone-medium: 0 0% 40%;
+    --stone-dark: 0 0% 20%;
+    --gold-elegant: 30 15% 54%;
+    --gold-light: 30 20% 75%;
 
     /* Gradientes elegantes */
     --gradient-hero: linear-gradient(135deg, hsl(var(--stone-light)), hsl(var(--stone-medium)));
