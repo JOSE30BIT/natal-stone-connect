@@ -52,6 +52,16 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Cores personalizadas para marmoraria
+				stone: {
+					light: 'hsl(var(--stone-light))',
+					medium: 'hsl(var(--stone-medium))',
+					dark: 'hsl(var(--stone-dark))'
+				},
+				gold: {
+					elegant: 'hsl(var(--gold-elegant))',
+					light: 'hsl(var(--gold-light))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
