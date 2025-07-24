@@ -47,14 +47,14 @@ const Services = () => {
         <div className="grid md:grid-cols-3 gap-6 mb-16">
           <div className="relative overflow-hidden rounded-xl shadow-[var(--shadow-elegant)] hover:shadow-xl transition-all duration-300 hover:scale-105">
             <img 
-              src={escadaImage} 
-              alt="Escada em granito" 
+              src="/lovable-uploads/f15e3a0e-f44c-4fcd-858a-0cc43682ee86.png" 
+              alt="Fachada residencial em granito" 
               className="w-full h-64 object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-dark/80 to-transparent"></div>
             <div className="absolute bottom-4 left-4 text-white">
-              <h3 className="font-semibold text-lg">Escadas em Granito</h3>
-              <p className="text-sm opacity-90">Elegância e durabilidade</p>
+              <h3 className="font-semibold text-lg">Fachadas Residenciais</h3>
+              <p className="text-sm opacity-90">Atendimento Natal e Parnamirim</p>
             </div>
           </div>
           
