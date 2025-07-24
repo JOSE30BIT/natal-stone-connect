@@ -8,23 +8,23 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 98%;
-    --foreground: 210 15% 15%;
+    --background: 0 0% 0%;
+    --foreground: 0 0% 100%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 210 15% 15%;
+    --card: 0 0% 8%;
+    --card-foreground: 0 0% 100%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 210 15% 15%;
+    --popover: 0 0% 8%;
+    --popover-foreground: 0 0% 100%;
 
-    --primary: 0 0% 20%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 0 0% 100%;
+    --primary-foreground: 0 0% 0%;
 
-    --secondary: 0 0% 69%;
-    --secondary-foreground: 0 0% 20%;
+    --secondary: 0 0% 20%;
+    --secondary-foreground: 0 0% 100%;
 
-    --muted: 0 0% 96%;
-    --muted-foreground: 0 0% 40%;
+    --muted: 0 0% 12%;
+    --muted-foreground: 0 0% 69%;
 
     --accent: 30 15% 54%;
     --accent-foreground: 0 0% 100%;
@@ -32,25 +32,29 @@ All colors MUST be HSL.
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 0 0% 69%;
-    --input: 0 0% 92%;
-    --ring: 0 0% 20%;
+    --border: 0 0% 20%;
+    --input: 0 0% 20%;
+    --ring: 30 15% 54%;
 
-    /* Design tokens da Marmonic (#333333, #FFFFFF, #B0B0B0, #666666, #8B7A6A) */
+    /* Design tokens da Marmonic - Versão Sofisticada Escura */
     --stone-light: 0 0% 69%;
     --stone-medium: 0 0% 40%;
     --stone-dark: 0 0% 20%;
     --gold-elegant: 30 15% 54%;
     --gold-light: 30 20% 75%;
+    --marble-white: 0 0% 100%;
+    --granite-dark: 0 0% 8%;
 
-    /* Gradientes elegantes */
-    --gradient-hero: linear-gradient(135deg, hsl(var(--stone-light)), hsl(var(--stone-medium)));
-    --gradient-gold: linear-gradient(135deg, hsl(var(--gold-elegant)), hsl(45 70% 65%));
-    --gradient-stone: linear-gradient(180deg, hsl(var(--stone-light)), hsl(var(--background)));
+    /* Gradientes elegantes para fundo escuro */
+    --gradient-hero: linear-gradient(135deg, hsl(0 0% 0%), hsl(0 0% 8%));
+    --gradient-gold: linear-gradient(135deg, hsl(var(--gold-elegant)), hsl(30 20% 60%));
+    --gradient-stone: linear-gradient(180deg, hsl(0 0% 8%), hsl(var(--background)));
+    --gradient-cta: linear-gradient(135deg, hsl(var(--gold-elegant)), hsl(30 25% 65%));
 
-    /* Sombras sofisticadas */
-    --shadow-elegant: 0 20px 50px -10px hsl(210 15% 15% / 0.1);
-    --shadow-gold: 0 8px 25px -5px hsl(var(--gold-elegant) / 0.3);
+    /* Sombras sofisticadas para tema escuro */
+    --shadow-elegant: 0 20px 50px -10px hsl(0 0% 0% / 0.8);
+    --shadow-gold: 0 8px 25px -5px hsl(var(--gold-elegant) / 0.5);
+    --shadow-cta: 0 10px 30px -5px hsl(var(--gold-elegant) / 0.4);
 
     --radius: 0.75rem;
 
