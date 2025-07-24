@@ -1,17 +1,13 @@
 import { Button } from "@/components/ui/button";
 import { Phone, MapPin, Clock } from "lucide-react";
 import heroImage from "@/assets/hero-bancada-marmore.jpg";
-
 const Hero = () => {
   const whatsappUrl = "https://wa.me/5584986235054?text=Olá,+gostaria+de+um+orçamento+de+mármore+ou+granito.";
-
-  return (
-    <section className="relative min-h-screen flex items-center">
+  return <section className="relative min-h-screen flex items-center">
       {/* Background Image with Overlay */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroImage})` }}
-      >
+      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat" style={{
+      backgroundImage: `url(${heroImage})`
+    }}>
         <div className="absolute inset-0 bg-gradient-to-r from-stone-dark/90 via-stone-dark/70 to-transparent"></div>
       </div>
       
@@ -29,23 +25,12 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
-            <Button 
-              variant="cta" 
-              size="lg"
-              className="text-lg px-8 py-6 h-auto"
-              onClick={() => window.open(whatsappUrl, '_blank')}
-            >
+            <Button variant="cta" size="lg" className="text-lg px-8 py-6 h-auto" onClick={() => window.open(whatsappUrl, '_blank')}>
               <Phone className="w-5 h-5" />
               SOLICITAR ORÇAMENTO GRÁTIS
             </Button>
             
-            <Button 
-              variant="outline" 
-              size="lg"
-              className="text-lg px-8 py-6 h-auto border-white text-white hover:bg-white hover:text-stone-dark"
-            >
-              Ver Nossos Trabalhos
-            </Button>
+            
           </div>
           
           {/* Contact Info */}
@@ -65,8 +50,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default Hero;
