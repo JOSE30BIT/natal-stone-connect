@@ -73,7 +73,7 @@ const Services = () => {
               <ul className="space-y-3">
                 {graniteServices.map((service, index) => <li key={index} className="flex items-start gap-2">
                     <div className="w-1.5 h-1.5 bg-gold-elegant rounded-full mt-2 flex-shrink-0"></div>
-                    <span className="text-gray-800 text-sm">{service}</span>
+                    <span className="text-sm text-slate-100">{service}</span>
                   </li>)}
               </ul>
             </CardContent>
