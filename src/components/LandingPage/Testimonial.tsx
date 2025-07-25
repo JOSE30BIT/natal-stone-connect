@@ -59,7 +59,7 @@ const Testimonial = () => {
           </div>
           <div>
             <div className="text-4xl font-bold text-gold-elegant mb-2">30+</div>
-            <p className="text-muted-foreground">Tipos de Pedras</p>
+            <p className="text-slate-950">Tipos de Pedras</p>
           </div>
           <div>
             <div className="text-4xl font-bold text-gold-elegant mb-2">15</div>
