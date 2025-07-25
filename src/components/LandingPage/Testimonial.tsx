@@ -67,7 +67,7 @@ const Testimonial = () => {
           </div>
           <div>
             <div className="text-4xl font-bold text-gold-elegant mb-2">100%</div>
-            <p className="text-muted-foreground">Satisfação Garantida</p>
+            <p className="text-slate-950">Satisfação Garantida</p>
           </div>
         </div>
       </div>
