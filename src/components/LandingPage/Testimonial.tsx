@@ -23,7 +23,7 @@ const Testimonial = () => {
           <h2 className="text-4xl font-bold mb-6 text-stone-dark">
             O que nossos <span className="text-gold-elegant">clientes</span> dizem
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-xl max-w-3xl mx-auto text-slate-950">
             Veja alguns depoimentos de quem já transformou seus ambientes conosco
           </p>
         </div>
