@@ -40,7 +40,7 @@ const Benefits = () => {
               <h3 className="font-semibold text-lg mb-3 text-orange-200">
                 {benefit.title}
               </h3>
-              <p className="text-muted-foreground text-sm leading-relaxed">
+              <p className="text-sm leading-relaxed text-slate-50">
                 {benefit.description}
               </p>
             </div>)}
