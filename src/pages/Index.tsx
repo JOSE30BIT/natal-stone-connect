@@ -2,7 +2,6 @@ import Hero from "@/components/LandingPage/Hero";
 import Benefits from "@/components/LandingPage/Benefits";
 import Services from "@/components/LandingPage/Services";
 import Testimonial from "@/components/LandingPage/Testimonial";
-import FAQ from "@/components/LandingPage/FAQ";
 import CTA from "@/components/LandingPage/CTA";
 import Footer from "@/components/LandingPage/Footer";
 import WhatsAppFloat from "@/components/LandingPage/WhatsAppFloat";
@@ -14,7 +13,6 @@ const Index = () => {
       <Benefits />
       <Services />
       <Testimonial />
-      <FAQ />
       <CTA />
       <Footer />
       <WhatsAppFloat />

@@ -85,57 +85,59 @@ const Services = () => {
           </div>
         </div>
         
-        {/* Serviços Detalhados - Layout Compacto */}
-        <Card className="p-8 shadow-[var(--shadow-elegant)] hover:shadow-xl transition-all duration-300 bg-white/5 backdrop-blur-sm">
-          <CardContent className="p-0">
-            <div className="grid lg:grid-cols-3 gap-8">
-              {/* Serviços em Mármore */}
-              <div>
-                <h3 className="text-xl font-bold mb-4 text-white">
-                  Serviços em <span className="text-gold-elegant">Mármore</span>
-                </h3>
-                <ul className="space-y-2">
-                  {marbleServices.map((service, index) => (
-                    <li key={index} className="flex items-start gap-2">
-                      <div className="w-1.5 h-1.5 bg-gold-elegant rounded-full mt-2 flex-shrink-0"></div>
-                      <span className="text-gray-800 text-sm">{service}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              
-              {/* Serviços em Granito */}
-              <div>
-                <h3 className="text-xl font-bold mb-4 text-white">
-                  Serviços em <span className="text-gold-elegant">Granito</span>
-                </h3>
-                <ul className="space-y-2">
-                  {graniteServices.map((service, index) => (
-                    <li key={index} className="flex items-start gap-2">
-                      <div className="w-1.5 h-1.5 bg-gold-elegant rounded-full mt-2 flex-shrink-0"></div>
-                      <span className="text-gray-800 text-sm">{service}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              
-              {/* Tipos de Pedras */}
-              <div>
-                <h3 className="text-xl font-bold mb-4 text-white">
-                  Tipos de <span className="text-gold-elegant">Pedras</span>
-                </h3>
-                <ul className="space-y-2">
-                  {stoneTypes.map((type, index) => (
-                    <li key={index} className="flex items-start gap-2">
-                      <div className="w-1.5 h-1.5 bg-gold-elegant rounded-full mt-2 flex-shrink-0"></div>
-                      <span className="text-gray-800 text-sm">{type}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          </CardContent>
-        </Card>
+        {/* Serviços Detalhados - Layout Horizontal */}
+        <div className="grid md:grid-cols-3 gap-8">
+          {/* Serviços em Mármore */}
+          <Card className="p-6 shadow-[var(--shadow-elegant)] hover:shadow-xl transition-all duration-300 bg-white/5 backdrop-blur-sm">
+            <CardContent className="p-0">
+              <h3 className="text-xl font-bold mb-4 text-white text-center">
+                Serviços em <span className="text-gold-elegant">Mármore</span>
+              </h3>
+              <ul className="space-y-3">
+                {marbleServices.map((service, index) => (
+                  <li key={index} className="flex items-start gap-2">
+                    <div className="w-1.5 h-1.5 bg-gold-elegant rounded-full mt-2 flex-shrink-0"></div>
+                    <span className="text-gray-800 text-sm">{service}</span>
+                  </li>
+                ))}
+              </ul>
+            </CardContent>
+          </Card>
+          
+          {/* Serviços em Granito */}
+          <Card className="p-6 shadow-[var(--shadow-elegant)] hover:shadow-xl transition-all duration-300 bg-white/5 backdrop-blur-sm">
+            <CardContent className="p-0">
+              <h3 className="text-xl font-bold mb-4 text-white text-center">
+                Serviços em <span className="text-gold-elegant">Granito</span>
+              </h3>
+              <ul className="space-y-3">
+                {graniteServices.map((service, index) => (
+                  <li key={index} className="flex items-start gap-2">
+                    <div className="w-1.5 h-1.5 bg-gold-elegant rounded-full mt-2 flex-shrink-0"></div>
+                    <span className="text-gray-800 text-sm">{service}</span>
+                  </li>
+                ))}
+              </ul>
+            </CardContent>
+          </Card>
+          
+          {/* Tipos de Pedras */}
+          <Card className="p-6 shadow-[var(--shadow-elegant)] hover:shadow-xl transition-all duration-300 bg-white/5 backdrop-blur-sm">
+            <CardContent className="p-0">
+              <h3 className="text-xl font-bold mb-4 text-white text-center">
+                Tipos de <span className="text-gold-elegant">Pedras</span>
+              </h3>
+              <ul className="space-y-3">
+                {stoneTypes.map((type, index) => (
+                  <li key={index} className="flex items-start gap-2">
+                    <div className="w-1.5 h-1.5 bg-gold-elegant rounded-full mt-2 flex-shrink-0"></div>
+                    <span className="text-gray-800 text-sm">{type}</span>
+                  </li>
+                ))}
+              </ul>
+            </CardContent>
+          </Card>
+        </div>
       </div>
     </section>
   );
