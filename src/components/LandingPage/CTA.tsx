@@ -5,7 +5,7 @@ const CTA = () => {
   return <section className="py-20 bg-gradient-to-r from-stone-dark to-stone-medium text-white relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_120%,rgba(255,255,255,0.1),transparent)]"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_120%,rgba(255,255,255,0.1),transparent)] bg-slate-950"></div>
       </div>
       
       <div className="container mx-auto px-4 relative z-10">
