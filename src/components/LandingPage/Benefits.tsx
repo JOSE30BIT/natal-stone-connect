@@ -37,7 +37,7 @@ const Benefits = () => {
               <div className="flex justify-center mb-4">
                 {benefit.icon}
               </div>
-              <h3 className="font-semibold text-lg mb-3 text-amber-300">
+              <h3 className="font-semibold text-lg mb-3 text-orange-200">
                 {benefit.title}
               </h3>
               <p className="text-muted-foreground text-sm leading-relaxed">
