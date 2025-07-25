@@ -44,7 +44,7 @@ const Testimonial = () => {
                 </p>
                 
                 <div className="border-t pt-4">
-                  <h4 className="font-semibold text-stone-dark">{testimonial.name}</h4>
+                  <h4 className="font-semibold text-amber-400">{testimonial.name}</h4>
                   <p className="text-sm text-muted-foreground">{testimonial.location}</p>
                 </div>
               </CardContent>
