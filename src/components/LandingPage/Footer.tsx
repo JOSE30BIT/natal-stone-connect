@@ -1,11 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Phone, MapPin, Clock, MessageCircle } from "lucide-react";
-
 const Footer = () => {
   const whatsappUrl = "https://wa.me/5584986235054?text=Olá,+gostaria+de+um+orçamento+de+mármore+ou+granito.";
-
-  return (
-    <footer className="bg-stone-dark text-white py-12">
+  return <footer className="bg-stone-dark text-white py-12">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8">
           {/* Logo e Descrição */}
@@ -18,11 +15,7 @@ const Footer = () => {
               Qualidade, durabilidade e acabamento sofisticado em todos os projetos.
             </p>
             
-            <Button 
-              variant="cta" 
-              onClick={() => window.open(whatsappUrl, '_blank')}
-              className="mb-4"
-            >
+            <Button variant="cta" onClick={() => window.open(whatsappUrl, '_blank')} className="mb-4">
               <MessageCircle className="w-4 h-4" />
               Solicitar Orçamento
             </Button>
@@ -65,12 +58,8 @@ const Footer = () => {
         {/* Linha de separação */}
         <div className="border-t border-stone-medium mt-8 pt-8">
           <div className="text-center mb-6">
-            <p className="text-2xl font-bold text-gold-elegant mb-2">
-              ATENDEMOS NATAL E PARNAMIRIM
-            </p>
-            <p className="text-stone-light">
-              Cobertura completa da Grande Natal com qualidade garantida
-            </p>
+            
+            
           </div>
           
           <div className="flex flex-col md:flex-row justify-between items-center">
@@ -85,8 +74,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;

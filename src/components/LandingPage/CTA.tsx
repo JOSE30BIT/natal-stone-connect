@@ -1,11 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Phone, MessageCircle, Clock, MapPin } from "lucide-react";
-
 const CTA = () => {
   const whatsappUrl = "https://wa.me/5584986235054?text=Olá,+gostaria+de+um+orçamento+de+mármore+ou+granito.";
-
-  return (
-    <section className="py-20 bg-gradient-to-r from-stone-dark to-stone-medium text-white relative overflow-hidden">
+  return <section className="py-20 bg-gradient-to-r from-stone-dark to-stone-medium text-white relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_120%,rgba(255,255,255,0.1),transparent)]"></div>
@@ -21,22 +18,12 @@ const CTA = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-            <Button 
-              variant="cta" 
-              size="lg"
-              className="text-lg px-8 py-6 h-auto"
-              onClick={() => window.open(whatsappUrl, '_blank')}
-            >
+            <Button variant="cta" size="lg" className="text-lg px-8 py-6 h-auto" onClick={() => window.open(whatsappUrl, '_blank')}>
               <MessageCircle className="w-6 h-6" />
               SOLICITAR ORÇAMENTO GRÁTIS
             </Button>
             
-            <Button 
-              variant="whatsapp" 
-              size="lg"
-              className="text-lg px-8 py-6 h-auto"
-              onClick={() => window.open('tel:+5584986235054', '_self')}
-            >
+            <Button variant="whatsapp" size="lg" className="text-lg px-8 py-6 h-auto" onClick={() => window.open('tel:+5584986235054', '_self')}>
               <Phone className="w-6 h-6" />
               LIGAR AGORA
             </Button>
@@ -68,14 +55,10 @@ const CTA = () => {
         
         {/* Trust Indicators */}
         <div className="text-center mt-12 pt-8 border-t border-white/20">
-          <p className="text-stone-light mb-4">✓ Orçamento Gratuito • ✓ Visita Técnica Inclusa • ✓ Garantia de Qualidade</p>
-          <p className="text-sm text-stone-light">
-            Atendemos toda a Grande Natal • Mais de 15 anos de experiência • Instalação profissional
-          </p>
+          <p className="text-stone-light mb-4">✓ Orçamento Gratuito • ✓ Visita Técnica  • ✓ Garantia de Qualidade</p>
+          <p className="text-sm text-stone-light">Atendemos toda Natal e Parnamirim • Mais de 15 anos de experiência • Instalação profissional</p>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default CTA;
