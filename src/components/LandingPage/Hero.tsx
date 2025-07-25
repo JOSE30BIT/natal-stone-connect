@@ -25,7 +25,7 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
-            <Button variant="cta" size="lg" className="text-lg px-8 py-6 h-auto" onClick={() => window.open(whatsappUrl, '_blank')}>
+            <Button variant="cta" size="lg" onClick={() => window.open(whatsappUrl, '_blank')} className="text-lg px-8 py-6 h-auto text-emerald-600">
               <Phone className="w-5 h-5" />
               SOLICITAR ORÇAMENTO GRÁTIS
             </Button>
