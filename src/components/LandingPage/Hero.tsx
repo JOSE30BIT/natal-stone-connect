@@ -44,7 +44,7 @@ const Hero = () => {
             </div>
             <div className="flex items-center gap-2">
               <MapPin className="w-4 h-4 text-gold-elegant" />
-              <span>São José de Mipibu – RN</span>
+              <span>Atendimento em todo o RN</span>
             </div>
             <div className="flex items-center gap-2">
               <Clock className="w-4 h-4 text-gold-elegant" />
