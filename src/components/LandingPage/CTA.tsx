@@ -23,12 +23,12 @@ const CTA = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <Button variant="cta" size="lg" className="text-lg px-8 py-6 h-auto" onClick={() => window.open(whatsappUrl, '_blank')}>
               <MessageCircle className="w-6 h-6" />
-              FALE COM MANOEL NO WHATSAPP
+              SOLICITAR ORÇAMENTO
             </Button>
             
             <Button variant="whatsapp" size="lg" className="text-lg px-8 py-6 h-auto" onClick={() => window.open('tel:+558430274482', '_self')}>
               <Phone className="w-6 h-6" />
-              LIGAR AGORA
+              LIGAR: (84) 3027-4482
             </Button>
           </div>
         </div>
@@ -62,7 +62,7 @@ const CTA = () => {
         {/* Trust Indicators */}
         <div className="text-center mt-12 pt-8 border-t border-white/20">
           <p className="text-stone-light mb-4">✓ Orçamento Gratuito • ✓ Visita Técnica • ✓ Garantia de Qualidade</p>
-          <p className="text-sm text-stone-light">Atendemos São José de Mipibu e região • Mais de 15 anos de experiência • Instalação profissional</p>
+          <p className="text-sm text-stone-light">Atendemos em todo o estado do RN • Mais de 15 anos de experiência • Instalação profissional</p>
         </div>
       </div>
     </section>

@@ -25,7 +25,7 @@ const Benefits = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-6 text-stone-dark">
-            Por que escolher a <span className="text-gold-elegant">Marmonic</span>?
+            Por que escolher a <span className="text-gold-elegant">Pedra Potiguar</span>?
           </h2>
           <p className="text-xl max-w-3xl mx-auto text-slate-950">
             Somos especialistas em transformar ambientes com as melhores pedras naturais do mercado
