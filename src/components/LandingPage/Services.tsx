@@ -3,9 +3,9 @@ import escadaImage from "@/assets/escada-granito.jpg";
 import bancadaImage from "@/assets/bancada-banheiro.jpg";
 import workshopImage from "@/assets/workshop-pedras.jpg";
 const Services = () => {
-  const marbleServices = ["Bancadas e mesas de mármore", "Escadas, divisórias e peitoris", "Pisantes, soleiras e revestimentos", "Móveis em mármore", "Projeto e fabricação sob medida", "Túmulo em mármore"];
-  const graniteServices = ["Bancada em granito", "Escada em granito", "Mesa de granito", "Pia e piso em granito", "Portal, fachada e borda de piscina", "Superfície de quartzo"];
-  const stoneTypes = ["Mármores nacionais e importados", "Granitos premium", "Quartzitos naturais", "Ônix exclusivo", "Supernanos", "Pedras exóticas"];
+  const marbleServices = ["Bancadas e mesas", "Escadas, divisórias e peitoris", "Soleiras e revestimentos", "Projeto e fabricação sob medida", "Túmulo em mármore"];
+  const graniteServices = ["Pia e piso", "Portal, fachada e borda de piscina", "Superfície de quartzo"];
+  const stoneTypes = ["Mármores nacionais e importados", "Supernanos"];
   return <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
