@@ -3,10 +3,17 @@ import escadaImage from "@/assets/escada-granito.jpg";
 import bancadaImage from "@/assets/bancada-banheiro.jpg";
 import workshopImage from "@/assets/workshop-pedras.jpg";
 const Services = () => {
-  const marbleServices = ["Bancadas e mesas", "Escadas, divisórias e peitoris", "Soleiras e revestimentos", "Projeto e fabricação sob medida", "Túmulo em mármore"];
-  const graniteServices = ["Pia e piso", "Portal, fachada e borda de piscina", "Superfície de quartzo"];
-  const stoneTypes = ["Mármores nacionais e importados", "Supernanos"];
-  return <section className="py-20 bg-background">
+  const allServices = [
+    "Escadas, divisórias e peitoris",
+    "Projeto e fabricação sob medida", 
+    "Túmulo em mármore",
+    "Pia e piso",
+    "Portal, fachada e borda de piscina",
+    "Superfície de quartzo"
+  ];
+
+  return (
+    <section className="py-20 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-6 text-white">
@@ -24,7 +31,7 @@ const Services = () => {
             <div className="absolute inset-0 bg-gradient-to-t from-stone-dark/80 to-transparent"></div>
             <div className="absolute bottom-4 left-4 text-white">
               <h3 className="font-semibold text-lg">Fachada Elegante</h3>
-              <p className="text-sm opacity-90">Sofisticação e durabilidade em granito</p>
+              <p className="text-sm opacity-90">Sofisticação e durabilidade</p>
             </div>
           </div>
           
@@ -32,7 +39,7 @@ const Services = () => {
             <img src={bancadaImage} alt="Bancada de banheiro" className="w-full h-64 object-cover" />
             <div className="absolute inset-0 bg-gradient-to-t from-stone-dark/80 to-transparent"></div>
             <div className="absolute bottom-4 left-4 text-white">
-              <h3 className="font-semibold text-lg">Bancadas de Mármore</h3>
+              <h3 className="font-semibold text-lg">Bancadas</h3>
               <p className="text-sm opacity-90">Sofisticação única</p>
             </div>
           </div>
@@ -42,59 +49,32 @@ const Services = () => {
             <div className="absolute inset-0 bg-gradient-to-t from-stone-dark/80 to-transparent"></div>
             <div className="absolute bottom-4 left-4 text-white">
               <h3 className="font-semibold text-lg">Variedade de Pedras</h3>
-              <p className="text-sm opacity-90">Mais de 30 opções</p>
+              <p className="text-sm opacity-90">Diversas opções</p>
             </div>
           </div>
         </div>
         
-        {/* Serviços Detalhados - Layout Horizontal */}
-        <div className="grid md:grid-cols-3 gap-8">
-          {/* Serviços em Mármore */}
-          <Card className="p-6 shadow-[var(--shadow-elegant)] hover:shadow-xl transition-all duration-300 bg-white/5 backdrop-blur-sm">
+        {/* Serviços Unificados */}
+        <div className="max-w-2xl mx-auto">
+          <Card className="p-8 shadow-[var(--shadow-elegant)] hover:shadow-xl transition-all duration-300 bg-white/5 backdrop-blur-sm">
             <CardContent className="p-0">
-              <h3 className="text-xl font-bold mb-4 text-white text-center">
-                Serviços em <span className="text-gold-elegant">Mármore</span>
+              <h3 className="text-2xl font-bold mb-6 text-white text-center">
+                Serviços em <span className="text-gold-elegant">Mármores e Granitos</span>
               </h3>
-              <ul className="space-y-3">
-                {marbleServices.map((service, index) => <li key={index} className="flex items-start gap-2">
-                    <div className="w-1.5 h-1.5 bg-gold-elegant rounded-full mt-2 flex-shrink-0"></div>
-                    <span className="text-sm text-slate-100">{service}</span>
-                  </li>)}
-              </ul>
-            </CardContent>
-          </Card>
-          
-          {/* Serviços em Granito */}
-          <Card className="p-6 shadow-[var(--shadow-elegant)] hover:shadow-xl transition-all duration-300 bg-white/5 backdrop-blur-sm">
-            <CardContent className="p-0">
-              <h3 className="text-xl font-bold mb-4 text-white text-center">
-                Serviços em <span className="text-gold-elegant">Granito</span>
-              </h3>
-              <ul className="space-y-3">
-                {graniteServices.map((service, index) => <li key={index} className="flex items-start gap-2">
-                    <div className="w-1.5 h-1.5 bg-gold-elegant rounded-full mt-2 flex-shrink-0"></div>
-                    <span className="text-sm text-slate-100">{service}</span>
-                  </li>)}
-              </ul>
-            </CardContent>
-          </Card>
-          
-          {/* Tipos de Pedras */}
-          <Card className="p-6 shadow-[var(--shadow-elegant)] hover:shadow-xl transition-all duration-300 bg-white/5 backdrop-blur-sm">
-            <CardContent className="p-0">
-              <h3 className="text-xl font-bold mb-4 text-white text-center">
-                Tipos de <span className="text-gold-elegant">Pedras</span>
-              </h3>
-              <ul className="space-y-3">
-                {stoneTypes.map((type, index) => <li key={index} className="flex items-start gap-2">
-                    <div className="w-1.5 h-1.5 bg-gold-elegant rounded-full mt-2 flex-shrink-0"></div>
-                    <span className="text-sm text-slate-100">{type}</span>
-                  </li>)}
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {allServices.map((service, index) => (
+                  <li key={index} className="flex items-start gap-3">
+                    <div className="w-2 h-2 bg-gold-elegant rounded-full mt-2 flex-shrink-0"></div>
+                    <span className="text-slate-100">{service}</span>
+                  </li>
+                ))}
               </ul>
             </CardContent>
           </Card>
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default Services;

@@ -73,6 +73,11 @@ const Footer = () => {
         
         {/* Linha de separação */}
         <div className="border-t border-stone-medium mt-8 pt-8">
+          <div className="text-center mb-6">
+            <p className="text-gold-elegant font-semibold text-lg">
+              ATENDEMOS EM TODO O RN
+            </p>
+          </div>
           
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-stone-light text-sm mb-4 md:mb-0">
@@ -81,7 +86,6 @@ const Footer = () => {
             <div className="flex items-center gap-4 text-sm text-stone-light">
               <span>✓ Orçamento Gratuito</span>
               <span>✓ Garantia de Qualidade</span>
-              <span>✓ Instalação Inclusa</span>
             </div>
           </div>
         </div>
