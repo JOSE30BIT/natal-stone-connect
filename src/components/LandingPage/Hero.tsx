@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Phone, MapPin, Clock } from "lucide-react";
+import { Phone, Clock } from "lucide-react";
 import heroImage from "@/assets/hero-bancada-marmore.jpg";
 
 const Hero = () => {
@@ -37,14 +37,10 @@ const Hero = () => {
           </div>
           
           {/* Contact Info */}
-          <div className="grid md:grid-cols-3 gap-6 text-sm">
+          <div className="grid md:grid-cols-2 gap-6 text-sm">
             <div className="flex items-center gap-2">
               <Phone className="w-4 h-4 text-gold-elegant" />
               <span>(84) 3027-4482</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <MapPin className="w-4 h-4 text-gold-elegant" />
-              <span>Atendimento em todo o RN</span>
             </div>
             <div className="flex items-center gap-2">
               <Clock className="w-4 h-4 text-gold-elegant" />
