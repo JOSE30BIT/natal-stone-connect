@@ -52,22 +52,14 @@ const Testimonial = () => {
         </div>
         
         {/* Stats */}
-        <div className="grid md:grid-cols-4 gap-8 mt-16 text-center">
+        <div className="grid md:grid-cols-2 gap-8 mt-16 text-center max-w-md mx-auto">
           <div>
             <div className="text-4xl font-bold text-gold-elegant mb-2">500+</div>
             <p className="text-slate-950">Projetos Realizados</p>
           </div>
           <div>
-            <div className="text-4xl font-bold text-gold-elegant mb-2">30+</div>
-            <p className="text-slate-950">Tipos de Pedras</p>
-          </div>
-          <div>
-            <div className="text-4xl font-bold text-gold-elegant mb-2">15</div>
+            <div className="text-4xl font-bold text-gold-elegant mb-2">10</div>
             <p className="text-slate-950">Anos de Experiência</p>
-          </div>
-          <div>
-            <div className="text-4xl font-bold text-gold-elegant mb-2">100%</div>
-            <p className="text-slate-950">Satisfação Garantida</p>
           </div>
         </div>
       </div>
