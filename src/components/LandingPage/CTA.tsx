@@ -62,7 +62,7 @@ const CTA = () => {
         {/* Trust Indicators */}
         <div className="text-center mt-12 pt-8 border-t border-white/20">
           <p className="text-stone-light mb-4">✓ Orçamento Gratuito • ✓ Visita Técnica • ✓ Garantia de Qualidade</p>
-          <p className="text-sm text-stone-light">Mais de 15 anos de experiência • Instalação profissional</p>
+          <p className="text-sm text-stone-light">Mais de 10 anos de experiência • Instalação profissional</p>
         </div>
       </div>
     </section>

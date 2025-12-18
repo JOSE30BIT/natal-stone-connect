@@ -43,9 +43,8 @@ const Footer = () => {
               <div className="flex items-start gap-2 mt-4">
                 <MapPin className="w-4 h-4 text-gold-elegant flex-shrink-0 mt-1" />
                 <div className="text-stone-light">
-                  <p>Rua das Violetas, nº 12</p>
-                  <p>Bairro Cidade Bela</p>
-                  <p>São José de Mipibu – RN</p>
+                  <p>Rua dos Pajeus, 1789</p>
+                  <p>Alecrim, Natal – RN</p>
                 </div>
               </div>
             </div>
