@@ -39,16 +39,15 @@ const CTA = () => {
             <Phone className="w-8 h-8 text-gold-elegant mx-auto mb-4" />
             <h3 className="font-semibold mb-2">Contatos para Vendas</h3>
             <p className="text-stone-light text-sm">Fixo: (84) 3027-4482</p>
-            <p className="text-stone-light text-sm">Manoel: (84) 98623-5054</p>
-            <p className="text-stone-light text-sm">Robson: (84) 99413-7954</p>
+            <p className="text-stone-light text-sm">(84) 98623-5054</p>
+            <p className="text-stone-light text-sm">(84) 99413-7954</p>
           </div>
           
           <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center">
             <MapPin className="w-8 h-8 text-gold-elegant mx-auto mb-4" />
             <h3 className="font-semibold mb-2">Localização</h3>
-            <p className="text-stone-light text-sm">Rua das Violetas, nº 12</p>
-            <p className="text-stone-light text-sm">Bairro Cidade Bela</p>
-            <p className="text-stone-light text-sm">São José de Mipibu – RN</p>
+            <p className="text-stone-light text-sm">Rua dos Pajeus, 1789</p>
+            <p className="text-stone-light text-sm">Alecrim, Natal – RN</p>
           </div>
           
           <div className="bg-white/10 backdrop-blur-sm rounded-xl p-6 text-center">
