@@ -33,11 +33,9 @@ const Footer = () => {
                 <span className="text-stone-light">(84) 3027-4482</span>
               </div>
               <div className="text-stone-light text-sm">
-                <p className="font-medium text-white">Manoel:</p>
                 <p>(84) 98623-5054</p>
               </div>
               <div className="text-stone-light text-sm">
-                <p className="font-medium text-white">Robson:</p>
                 <p>(84) 99413-7954</p>
               </div>
               <div className="flex items-start gap-2 mt-4">
@@ -65,7 +63,7 @@ const Footer = () => {
             
             <div className="mt-6 p-4 bg-green-600/20 rounded-lg border border-green-500/30">
               <p className="text-sm font-medium text-green-400 mb-1">💬 WhatsApp Oficial</p>
-              <p className="text-stone-light text-sm">Manoel – (84) 98623-5054</p>
+              <p className="text-stone-light text-sm">(84) 98623-5054</p>
             </div>
           </div>
         </div>
